@@ -7,7 +7,7 @@ namespace Midtrans;
 
 require_once dirname(__FILE__) . '/../Midtrans.php';
 Config::$isProduction = false;
-Config::$serverKey = 'SB-Mid-server-bYz7Xrj7TcFS-be84kANcW-o';
+Config::$serverKey = 'Your Server Key';
 
 // non-relevant function only used for demo/example purpose
 printExampleWarningMessage();
@@ -65,7 +65,7 @@ function printExampleWarningMessage() {
         echo "In file: " . __FILE__;
         echo "<br>";
         echo "<br>";
-        echo htmlspecialchars('Config::$serverKey = \'SB-Mid-server-bYz7Xrj7TcFS-be84kANcW-o\';');
+        echo htmlspecialchars('Config::$serverKey = \'Your Server Key\';');
         die();
     }   
 }
